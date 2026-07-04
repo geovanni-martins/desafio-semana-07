@@ -1,14 +1,4 @@
-﻿// Cenário
-//     Você está desenvolvendo um sistema interno para uma empresa.
-//     Cada usuário possui um cargo:
-// Admin
-//     Gerente
-// Funcionário
-//     Cada cargo possui permissões diferentes.
-//     Tarefa
-//     Receber o cargo e mostrar a permissão correspondente usando switch.
-
-Console.WriteLine("Qual seu cargo (Admin, Gerente, Funcionário): ");
+﻿Console.WriteLine("Qual seu cargo (Admin, Gerente, Funcionário): ");
 string cargo = Console.ReadLine();
 
 switch (cargo.ToLower())
